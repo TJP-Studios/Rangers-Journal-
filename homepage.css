@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: Montserrat;
+    width: 100%;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    background-color: #FFFFFF;
+}
+
+#search {
+    width: 168px;
+    border: 1px solid #026800E5;
+    height: 24px;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+nav ::placeholder {
+    font-family: Montserrat;
+    font-size: 16px;
+}
+
+.submit {
+    background-color: #026800E5;
+    border: none;
+    height: 26px;
+    margin: none;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 500;
+    color: #2B2B2B;
+
+}
+
+
+
+
+ /* FIRST SECTION  */
+
+.firstsection {
+    background-color: #2B2B2B;
+    width: 100%;
+    height: 878px;
+    top: 146px;
+    padding: 385px 767px 215px 68px;
+    border: 1px
+}
+
+.firstsection p {
+    font-size: 41px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.firstsection button {
+    width: 164px;
+    height: 46px;
+    top: 617px;
+    left: 68px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 6px;
+    border: 1px solid rgb(53, 52, 52);
+    gap: 10px;
+cursor: pointer;
+background: linear-gradient(0deg, rgba(2, 104, 0, 0.9), rgba(2, 104, 0, 0.9));
+
+}
+
+.firstsection a{
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+   
+    color: #FFFFFF;
+}
+
+/* SECOND SECTION */
+
+.secondsection{
+    width: 1129px;
+height: 158px;
+top: 1084px;
+left: 156px;
+
+}
+
+.secondsection h2{
+ 
+    
+   
+
+font-size: 30px;
+font-weight: 600;
+line-height: 37px;
+letter-spacing: 0em;
+text-align: center;
+
+}
