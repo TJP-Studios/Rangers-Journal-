@@ -135,9 +135,8 @@ header img{
 
 
 .secondsection h2 {
-    font-weight: 600;
-    line-height: 37px;
-    letter-spacing: 0em;
+    color: #2B2B2B;
+
     text-align: center;
 
 }
@@ -184,10 +183,11 @@ header img{
 .secondsectiondiv2 {
     width: auto;
     height: 773px;
-    gap: 20px;
+    gap: 15px;
     display: flex;
-   margin-left: 3%;
-   margin-top: 2%;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
 }
 
 .div1 {
@@ -199,8 +199,10 @@ header img{
 }
 
 .div1 img {
-    width: 370px;
-    height: 450px;
+    width: 400px;
+    /* height: 450px; */
+    width:414.68px;
+    Height: 490px;
 border-top-left-radius: 10px; 
 border-top-right-radius: 10px;
 }
@@ -257,4 +259,75 @@ border-top-right-radius: 10px;
     letter-spacing: 0em;
 
 
+}
+
+
+.secondsectiondiv3{
+    /* margin-left: 3%; */
+    width: 1,312px;
+}
+
+.post{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.post h2{
+text-align: center;
+color: #2B2B2B;
+
+}
+.post hr{
+    width: 510px;
+    height: 0%;
+    border: 1px solid #2B2B2B;
+
+}
+
+.stay{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stay p{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2B2B2B;
+width:672px;
+}
+
+.lastdiv{
+    width: 380px;
+    height: 323px;
+    top: 2279px;
+    left: 69px;
+    border-radius: 15px;
+    background-color: #D4D4D4;
+    
+}
+
+.last{
+    display: flex;
+align-items: center;
+justify-content: center;
+gap: 25px;
+}
+.lastdiv img{
+    width:  380px;
+    height: 250px;
+border-top-left-radius: 10px; 
+border-top-right-radius: 10px;
+}
+
+.lastdiv p{
+font-size: 21px;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+color: #2B2B2B;
 }
