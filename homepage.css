@@ -5,7 +5,13 @@
 body {
     background-color: #FFFFFF;
     font-family: Montserrat;
-    width: 100%;
+    width: auto;
+}
+
+button,
+a {
+    cursor: pointer;
+    text-decoration: none;
 }
 
 /* HEADER */
@@ -17,14 +23,14 @@ header {
     width: 100%;
     position: fixed;
     background-color: #FFFFFF;
+    height: auto;
 }
 
 #search {
-    width: 168px;
+    width: 130px;
     border: 1px solid #026800E5;
-    height: 24px;
-    border-radius: 6px;
-    padding: 15px;
+    border-radius: 6px 0px 6px 0px;
+    padding: 5px;
 }
 
 nav ::placeholder {
@@ -35,9 +41,11 @@ nav ::placeholder {
 .submit {
     background-color: #026800E5;
     border: none;
-    height: 26px;
+    height: 30px;
+    width: 36px;
     margin: none;
     cursor: pointer;
+    border-radius: 6px 0px 6px 0px;
 }
 
 .nav {
@@ -50,22 +58,27 @@ nav {
     gap: 30px;
 }
 
-a {
+.nav a {
     text-decoration: none;
-    font-size: 21px;
+    font-size: 15px;
     font-weight: 500;
     color: #2B2B2B;
 
 }
 
+header img{
+    width:12%;
+}
 
 
-
- /* FIRST SECTION  */
+/* FIRST SECTION  */
 
 .firstsection {
-    background-color: #2B2B2B;
-    width: 100%;
+    background-image: url('New-Zealand-Mountains-Header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
     height: 878px;
     top: 146px;
     padding: 385px 767px 215px 68px;
@@ -73,12 +86,13 @@ a {
 }
 
 .firstsection p {
-    font-size: 41px;
+    font-size: 31px;
     font-weight: 800;
     line-height: 50px;
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
+    width: 605px;
 }
 
 .firstsection button {
@@ -87,43 +101,160 @@ a {
     top: 617px;
     left: 68px;
     padding: 10px 20px 10px 20px;
-    border-radius: 6px;
+    border-radius: 9px 0px 9px 0px;
     border: 1px solid rgb(53, 52, 52);
     gap: 10px;
-cursor: pointer;
-background: linear-gradient(0deg, rgba(2, 104, 0, 0.9), rgba(2, 104, 0, 0.9));
-
+    cursor: pointer;
+    background-color: #044903;
 }
 
-.firstsection a{
-    font-size: 21px;
+.firstsection button:hover {
+    background-color: white;
+}
+
+.firstsection a:hover {
+    color: #014400;
+}
+
+.firstsection a {
+    font-size: 18px;
     font-weight: 600;
     line-height: 26px;
     letter-spacing: 0em;
     text-align: left;
-   
     color: #FFFFFF;
+    text-decoration: none;
 }
+
+
 
 /* SECOND SECTION */
 
-.secondsection{
-    width: 1129px;
-height: 158px;
-top: 1084px;
-left: 156px;
+
+
+
+
+.secondsection h2 {
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
 
 }
 
-.secondsection h2{
- 
-    
-   
+.secondsectiondiv1 div {
+    display: flex;
+    padding: 10px;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
 
-font-size: 30px;
-font-weight: 600;
-line-height: 37px;
-letter-spacing: 0em;
-text-align: center;
+.secondsectiondiv1 button {
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid#014400;
+    gap: 10px;
+    color: #014400;
+    text-align: center;
+
+}
+
+.secondsectiondiv1 button:hover {
+    background-color: #014400;
+}
+
+.secondsectiondiv1 a:hover {
+    color: white;
+}
+
+.secondsectiondiv1 a {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+
+    color: #014400;
+}
+
+
+
+.secondsectiondiv2 {
+    width: auto;
+    height: 773px;
+    gap: 20px;
+    display: flex;
+   margin-left: 3%;
+   margin-top: 2%;
+}
+
+.div1 {
+    width: 415px;
+    height: 773px;
+    padding: 0px 0px 20px 0px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.div1 img {
+    width: 370px;
+    height: 450px;
+border-top-left-radius: 10px; 
+border-top-right-radius: 10px;
+}
+
+
+
+.div1 h3 {
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2B2B2B;
+
+}
+
+.div1 p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2B2B2B;
+    width: 380px;
+    margin: 15px;
+
+}
+
+.div1 button {
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 9px 0px 9px 0px;
+    border: 1px solid#014400;
+    gap: 10px;
+    color: #014400;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.div1 button:hover {
+    background-color: #014400;
+
+}
+
+.div1 a:hover {
+    color: white;
+}
+
+.div1 a {
+    color: #014400;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+
 
 }
