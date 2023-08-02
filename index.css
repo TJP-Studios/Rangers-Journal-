@@ -1,11 +1,12 @@
 * {
     box-sizing: border-box;
 }
-
 body {
     background-color: #FFFFFF;
     font-family: Montserrat;
     width: auto;
+    margin: auto;
+    padding: auto;
 }
 
 button,
@@ -23,7 +24,7 @@ header {
     width: 100%;
     position: fixed;
     background-color: #FFFFFF;
-    height: auto;
+    border:1px solid #5c5b5b;
 }
 
 #search {
@@ -74,10 +75,9 @@ header img{
 /* FIRST SECTION  */
 
 .firstsection {
-    background-image: url('New-Zealand-Mountains-Header.jpg');
+    background-image: url('man.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     width: auto;
     height: 878px;
     top: 146px;
@@ -200,9 +200,7 @@ header img{
 
 .div1 img {
     width: 400px;
-    /* height: 450px; */
-    width:414.68px;
-    Height: 490px;
+    height: 450px;
 border-top-left-radius: 10px; 
 border-top-right-radius: 10px;
 }
@@ -263,8 +261,8 @@ border-top-right-radius: 10px;
 
 
 .secondsectiondiv3{
-    /* margin-left: 3%; */
-    width: 1,312px;
+margin-bottom: 3%;
+
 }
 
 .post{
@@ -330,4 +328,128 @@ line-height: 26px;
 letter-spacing: 0em;
 text-align: center;
 color: #2B2B2B;
+}
+
+/* THIRD SECTION */
+
+.thirdsection{
+    background-image: url('watch.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+height: 500px;
+margin-bottom: 3%;
+}
+form ::placeholder{
+font-size: 15px;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+color: #2B2B2B80;
+}
+.third{
+    width: 410px;
+    margin-top: 20px;
+float: right;
+
+}
+
+.third p{
+font-size: 21px;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0em;
+/* text-align: center; */
+color: #FFFFFF;
+
+}
+.third input{
+    width: 240px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom:10px ;
+}
+.third textarea{
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+/* FOOTER */
+
+footer{
+background-color: #D9D9D9;
+display: flex;
+}
+
+#png{
+    width:70%;
+align-items: center;
+margin: 10%;
+}
+
+.footerdiv1{
+padding: 1%;
+margin-left: 7%;
+}
+
+.png{
+display: flex;
+gap: 16px;
+
+}
+
+.png img{
+    width: 40px;
+height: 40px;
+
+}
+
+
+.footerdiv2{
+    padding: 1%;
+}
+.graduate{
+font-family: Graduate;
+font-size: 22px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.links{
+font-size: 13px;
+    font-weight: 500;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.email{
+    width: 240px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.email1{
+    width: 240px;
+    padding: 10px;
+    border-radius: 19px;
+    border: none;
+    background-color: #014400;
+}
+.email1 a{
+    color: black;
 }
