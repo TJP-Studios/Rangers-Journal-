@@ -4,14 +4,18 @@
     box-sizing: border-box;
 }
 .travelresouceimage{
-    display: flex;
-    justify-content: center;
     width: 100%;
     margin-top: 1%;
+    margin-bottom: 4%;
+    margin-left: 0.5%;
+}
+.travelresouceimage img{
+   width: 100%;
 }
 .travelplanning{
     display: flex;
     flex-direction: row;
+    margin-bottom: 5%;
 }
 .travefy{
     display: flex;
@@ -21,6 +25,7 @@
 margin-right: 2%;
 border-radius: 16px;
 margin-left: 2%;
+padding: 4%;
 }
 .travelguide{
     display: flex;
@@ -28,6 +33,7 @@ margin-left: 2%;
     border: 2px solid #D9D9D9;
     margin-right: 2%;
     border-radius: 16px;
+    padding: 4%;
 }
 .lonelyplanet{
     display: flex;
@@ -36,10 +42,13 @@ margin-left: 2%;
     border: 2px solid #D9D9D9;
     border-radius: 16px;
     margin-right: 2%;
+    padding: 4%;
 }
 .flights{
     display: flex;
     flex-direction: row;
+    margin-bottom: 5%;
+    margin-bottom: 5%;
 }
 .googleflights{
     display: flex;
@@ -49,6 +58,7 @@ margin-left: 2%;
 margin-right: 2%;
 border-radius: 16px;
 margin-left: 2%;
+padding: 4%;
 }
 .skyscanner{
     display: flex;
@@ -57,6 +67,7 @@ margin-left: 2%;
     border: 2px solid #D9D9D9;
 margin-right: 2%;
 border-radius: 16px;
+padding: 4%;
 }
 .momondo{
     display: flex;
@@ -65,10 +76,12 @@ border-radius: 16px;
     border: 2px solid #D9D9D9;
 margin-right: 2%;
 border-radius: 16px;
+padding: 4%;
 }
 .flights2{
     display: flex;
     flex-direction: row;
+    margin-bottom: 5%;
 }
 .flightspng{
     display: flex;
@@ -77,6 +90,7 @@ border-radius: 16px;
     border: 2px solid #D9D9D9;
 margin-right: 2%;
 border-radius: 16px;
+padding: 4%;
 }
 .katak{
     display: flex;
@@ -85,6 +99,7 @@ border-radius: 16px;
     border: 2px solid #D9D9D9;
 margin-right: 2%;
 border-radius: 16px;
+padding: 4%;
 }
 .cheapair{
     display: flex;
@@ -94,11 +109,13 @@ border-radius: 16px;
 margin-right: 2%;
 border-radius: 16px;
 margin-left: 2%;
+padding: 4%;
 }
 .Travelinsurance{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 5%;
 }
 .nomads{
     display: flex;
@@ -108,6 +125,7 @@ margin-left: 2%;
 margin-right: 2%;
 border-radius: 16px;
 margin-left: 2%;
+padding: 4%;
 }
 .insurance{
     display: flex;
@@ -116,10 +134,12 @@ margin-left: 2%;
 margin-right: 2%;
 border-radius: 16px;
 margin-left: 2%; 
+padding: 4%;
 }
 .ACCOMODTION{
     display: flex;
     flex-direction: row;
+    margin-bottom: 5%;
 }
 .airbnb{
     display: flex;
@@ -129,6 +149,7 @@ margin-left: 2%;
 margin-right: 2%;
 border-radius: 16px;
 margin-left: 2%;
+padding: 4%;
 }
 .booking{
     display: flex;
@@ -138,6 +159,7 @@ margin-left: 2%;
 margin-right: 2%;
 border-radius: 16px;
 margin-left: 2%;
+padding: 4%;
 }
 .hotelworlds{
     display: flex;
@@ -147,10 +169,12 @@ margin-left: 2%;
 margin-right: 2%;
 border-radius: 16px;
 margin-left: 2%;
+padding: 4%;
 }
 .transportation{
     display: flex;
     flex-direction: row;
+    margin-bottom: 5%;
 }
 .rentalcare{
     display: flex;
@@ -159,6 +183,8 @@ margin-left: 2%;
     border: 2px solid #D9D9D9;
 margin-right: 2%;
 border-radius: 16px;
+padding: 4%;
+margin-left: 2%;
 }
 .traveltrain{
     display: flex;
@@ -167,6 +193,7 @@ border-radius: 16px;
     border: 2px solid #D9D9D9;
 margin-right: 2%;
 border-radius: 16px;
+padding: 4%;
 }
 .rome2rio{
     display: flex;
@@ -175,10 +202,12 @@ border-radius: 16px;
     border: 2px solid #D9D9D9;
 margin-right: 2%;
 border-radius: 16px;
+padding: 4%;
 }
 .packingguide{
     display: flex;
     flex-direction: row;
+    margin-bottom: 5%;
 }
 .imgpackingguide{
     display: flex;
@@ -188,6 +217,7 @@ border-radius: 16px;
 margin-right: 2%;
 margin-left: 2%;
 border-radius: 16px;
+padding: 4%;
 }
 .packingguidewriteup{
     display: flex;
@@ -196,10 +226,12 @@ border-radius: 16px;
     border: 2px solid #D9D9D9;
 margin-right: 2%;
 border-radius: 16px;
+padding: 4%;
 }
 .Gears{
     display: flex;
     flex-direction: row;
+    margin-bottom: 5%;
 }  
 .imggears{
     display: flex;
@@ -208,6 +240,7 @@ border-radius: 16px;
     border: 2px solid #D9D9D9;
 margin-right: 2%;
 border-radius: 16px;
+padding: 4%;
 }
 .rei{
     display: flex;
@@ -216,6 +249,8 @@ border-radius: 16px;
     border: 2px solid #D9D9D9;
 margin-right: 2%;
 border-radius: 16px; 
+padding: 4%;
+margin-left: 2%;
 }
 .patagonia{
     display: flex;
@@ -224,10 +259,12 @@ border-radius: 16px;
     border: 2px solid #D9D9D9;
 margin-right: 2%;
 border-radius: 16px; 
+padding: 4%;
 }
 .STAYCONNECTED{
     display: flex;
     flex-direction: row; 
+    margin-bottom: 5%;
 }
 .solis{
     display: flex;
@@ -236,6 +273,8 @@ border-radius: 16px;
     border: 2px solid #D9D9D9;
 margin-right: 2%;
 border-radius: 16px; 
+padding: 4%;
+margin-left: 2%;
 }
 .imgphone{
     display: flex;
@@ -244,6 +283,7 @@ border-radius: 16px;
     border: 2px solid #D9D9D9;
 margin-right: 2%;
 border-radius: 16px; 
+padding: 4%;
 }
 .expressvpn{
     display: flex;
@@ -252,4 +292,50 @@ border-radius: 16px;
     border: 2px solid #D9D9D9;
 margin-right: 2%;
 border-radius: 16px; 
+padding: 4%;
+}
+.Tourcompanies{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+.getyourguide{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: 2px solid #D9D9D9;
+margin-right: 2%;
+border-radius: 16px;
+padding: 4%;
+margin-left: 2%;
+}
+.walks{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: 2px solid #D9D9D9;
+margin-right: 2%;
+border-radius: 16px; 
+padding: 4%;
+}
+.intrepid{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: 2px solid #D9D9D9;
+margin-right: 2%;
+border-radius: 16px;  
+padding: 4%;
+margin-left: 2%;
+}
+.worldimg{
+    margin: 2%;
+    border-radius: 4px;
+}
+.worldimg img{
+    width: 100%;
+}
+h1{
+    margin-left: 40%;
+    margin-bottom: 5%;
 }
