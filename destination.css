@@ -75,10 +75,36 @@ header img {
 }
 
 
+/* MAIN */
+.solo{
+    
+}
+.firstdiv{
+    /* width: 1440px; */
+    background-image: url('mountains-139012_1280\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+height: 500px;
+padding-top: 12%;
 
+}
 
+.firstdiv h2{
+color: #CCDACC;
+font-family: Graduate;
+/* font-size: 22px; */
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: center;
+}
 
-
+.firstdiv p{
+    color: #FFFFFF;
+    text-align: center;
+/* width: 50%; */
+padding: 3% 10% 0% 10%;
+}
 
 
 
