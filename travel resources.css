@@ -1,35 +1,99 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
-.travelresouceimage{
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    background-color: #FFFFFF;
+    border: 1px solid #5c5b5b;
+    font-family: Montserrat;
+}
+
+#search {
+    width: 130px;
+    border: 1px solid #026800E5;
+    border-radius: 6px 0px 6px 0px;
+    padding: 5px;
+}
+
+nav ::placeholder {
+    font-family: Montserrat;
+    font-size: 16px;
+}
+
+.submit {
+    background-color: #026800E5;
+    border: none;
+    height: 30px;
+    width: 36px;
+    margin: none;
+    cursor: pointer;
+    border-radius: 6px 0px 6px 0px;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: #2B2B2B;
+    margin-top: 4px;
+
+}
+
+header img {
+    width: 12%;
+}
+
+
+
+.travelresouceimage {
     display: flex;
     justify-content: center;
     width: 100%;
     margin-top: 1%;
 }
-.travelplanning{
+
+.travelplanning {
     display: flex;
     flex-direction: row;
 }
-.travefy{
+
+.travefy {
     display: flex;
     flex-direction: column;
     width: 35%;
     border: 2px solid #D9D9D9;
-margin-right: 2%;
-border-radius: 16px;
-margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 16px;
+    margin-left: 2%;
 }
-.travelguide{
+
+.travelguide {
     display: flex;
     flex-direction: column;
     border: 2px solid #D9D9D9;
     margin-right: 2%;
     border-radius: 16px;
 }
-.lonelyplanet{
+
+.lonelyplanet {
     display: flex;
     flex-direction: column;
     width: 35%;
@@ -37,219 +101,352 @@ margin-left: 2%;
     border-radius: 16px;
     margin-right: 2%;
 }
-.flights{
+
+.flights {
     display: flex;
     flex-direction: row;
 }
-.googleflights{
+
+.googleflights {
     display: flex;
     flex-direction: column;
     width: 35%;
     border: 2px solid #D9D9D9;
-margin-right: 2%;
-border-radius: 16px;
-margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 16px;
+    margin-left: 2%;
 }
-.skyscanner{
+
+.skyscanner {
     display: flex;
     flex-direction: column;
     width: 35%;
     border: 2px solid #D9D9D9;
-margin-right: 2%;
-border-radius: 16px;
+    margin-right: 2%;
+    border-radius: 16px;
 }
-.momondo{
+
+.momondo {
     display: flex;
     flex-direction: column;
     width: 35%;
     border: 2px solid #D9D9D9;
-margin-right: 2%;
-border-radius: 16px;
+    margin-right: 2%;
+    border-radius: 16px;
 }
-.flights2{
+
+.flights2 {
     display: flex;
     flex-direction: row;
 }
-.flightspng{
+
+.flightspng {
     display: flex;
     flex-direction: column;
     width: 35%;
     border: 2px solid #D9D9D9;
-margin-right: 2%;
-border-radius: 16px;
+    margin-right: 2%;
+    border-radius: 16px;
 }
-.katak{
+
+.katak {
     display: flex;
     flex-direction: column;
     width: 35%;
     border: 2px solid #D9D9D9;
-margin-right: 2%;
-border-radius: 16px;
+    margin-right: 2%;
+    border-radius: 16px;
 }
-.cheapair{
+
+.cheapair {
     display: flex;
     flex-direction: column;
     width: 35%;
     border: 2px solid #D9D9D9;
-margin-right: 2%;
-border-radius: 16px;
-margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 16px;
+    margin-left: 2%;
 }
-.Travelinsurance{
+
+.Travelinsurance {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.nomads{
+
+.nomads {
     display: flex;
     flex-direction: column;
     width: 30%;
     border: 2px solid #D9D9D9;
-margin-right: 2%;
-border-radius: 16px;
-margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 16px;
+    margin-left: 2%;
 }
-.insurance{
+
+.insurance {
     display: flex;
     flex-direction: column;
     width: 70%;
-margin-right: 2%;
-border-radius: 16px;
-margin-left: 2%; 
+    margin-right: 2%;
+    border-radius: 16px;
+    margin-left: 2%;
 }
-.ACCOMODTION{
+
+.ACCOMODTION {
     display: flex;
     flex-direction: row;
 }
-.airbnb{
+
+.airbnb {
     display: flex;
     flex-direction: column;
     width: 35%;
     border: 2px solid #D9D9D9;
-margin-right: 2%;
-border-radius: 16px;
-margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 16px;
+    margin-left: 2%;
 }
-.booking{
+
+.booking {
     display: flex;
     flex-direction: column;
     width: 35%;
     border: 2px solid #D9D9D9;
-margin-right: 2%;
-border-radius: 16px;
-margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 16px;
+    margin-left: 2%;
 }
-.hotelworlds{
+
+.hotelworlds {
     display: flex;
     flex-direction: column;
     width: 35%;
     border: 2px solid #D9D9D9;
-margin-right: 2%;
-border-radius: 16px;
-margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 16px;
+    margin-left: 2%;
 }
-.transportation{
+
+.transportation {
     display: flex;
     flex-direction: row;
 }
-.rentalcare{
+
+.rentalcare {
     display: flex;
     flex-direction: column;
     width: 35%;
     border: 2px solid #D9D9D9;
-margin-right: 2%;
-border-radius: 16px;
+    margin-right: 2%;
+    border-radius: 16px;
 }
-.traveltrain{
+
+.traveltrain {
     display: flex;
     flex-direction: column;
     width: 35%;
     border: 2px solid #D9D9D9;
-margin-right: 2%;
-border-radius: 16px;
+    margin-right: 2%;
+    border-radius: 16px;
 }
-.rome2rio{
+
+.rome2rio {
     display: flex;
     flex-direction: column;
     width: 35%;
     border: 2px solid #D9D9D9;
-margin-right: 2%;
-border-radius: 16px;
+    margin-right: 2%;
+    border-radius: 16px;
 }
-.packingguide{
+
+.packingguide {
     display: flex;
     flex-direction: row;
 }
-.imgpackingguide{
+
+.imgpackingguide {
     display: flex;
     flex-direction: column;
     width: 70%;
     border: 2px solid #D9D9D9;
-margin-right: 2%;
-margin-left: 2%;
-border-radius: 16px;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 16px;
 }
-.packingguidewriteup{
+
+.packingguidewriteup {
     display: flex;
     flex-direction: column;
     width: 30%;
     border: 2px solid #D9D9D9;
-margin-right: 2%;
-border-radius: 16px;
+    margin-right: 2%;
+    border-radius: 16px;
 }
-.Gears{
+
+.Gears {
     display: flex;
     flex-direction: row;
-}  
-.imggears{
+}
+
+.imggears {
     display: flex;
     flex-direction: column;
     width: 35%;
     border: 2px solid #D9D9D9;
-margin-right: 2%;
-border-radius: 16px;
+    margin-right: 2%;
+    border-radius: 16px;
 }
-.rei{
+
+.rei {
     display: flex;
     flex-direction: column;
     width: 35%;
     border: 2px solid #D9D9D9;
-margin-right: 2%;
-border-radius: 16px; 
+    margin-right: 2%;
+    border-radius: 16px;
 }
-.patagonia{
+
+.patagonia {
     display: flex;
     flex-direction: column;
     width: 35%;
     border: 2px solid #D9D9D9;
-margin-right: 2%;
-border-radius: 16px; 
+    margin-right: 2%;
+    border-radius: 16px;
 }
-.STAYCONNECTED{
+
+.STAYCONNECTED {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
 }
-.solis{
-    display: flex;
-    flex-direction: column;
-    width: 35%;
-    border: 2px solid #D9D9D9;
-margin-right: 2%;
-border-radius: 16px; 
-}
-.imgphone{
+
+.solis {
     display: flex;
     flex-direction: column;
     width: 35%;
     border: 2px solid #D9D9D9;
-margin-right: 2%;
-border-radius: 16px; 
+    margin-right: 2%;
+    border-radius: 16px;
 }
-.expressvpn{
+
+.imgphone {
     display: flex;
     flex-direction: column;
     width: 35%;
     border: 2px solid #D9D9D9;
-margin-right: 2%;
-border-radius: 16px; 
+    margin-right: 2%;
+    border-radius: 16px;
+}
+
+.expressvpn {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: 2px solid #D9D9D9;
+    margin-right: 2%;
+    border-radius: 16px;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #D9D9D9;
+    display: flex;
+    width: auto;
+    height: auto;
+    /* top: 1634px; */
+
+}
+
+#png {
+    width: 70%;
+    align-items: center;
+    margin: 10%;
+}
+
+.footerdiv1 {
+   
+
+    padding: 5% 5% 0% 5%;
+
+}
+
+.png {
+    display: flex;
+    gap: 16px;
+
+}
+
+.png img {
+    width: 40px;
+    height: 40px;
+
+}
+
+
+.footerdiv2 {
+    /* padding-left: 5%; */
+padding: 5% 10% 2% 10%;
+}
+
+.footerdiv3 {
+    padding: 5% 5% 2% 5%;
+    margin-left: 10%;
+}
+
+.graduate {
+    font-family: Graduate;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.links {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.email {
+    width: 240px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 7px;
+}
+
+.email1 {
+    width: 240px;
+    padding: 10px;
+    border-radius: 19px;
+    border: none;
+    background-color: #014400;
+}
+
+.email1:hover {
+    background-color: #FFFFFF;
+
+}
+
+.email1 a {
+    color: black;
 }
