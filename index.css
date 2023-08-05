@@ -24,7 +24,7 @@ header {
     width: 100%;
     position: fixed;
     background-color: #FFFFFF;
-    border: 1px solid #5c5b5b;
+    border-bottom: 1px solid #5c5b5b;
 }
 
 #search {

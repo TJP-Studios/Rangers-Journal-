@@ -16,6 +16,8 @@ a {
     text-decoration: none;
 }
 
+
+
 /* HEADER */
 
 header {
@@ -24,14 +26,13 @@ header {
     padding: 20px;
     width: 100%;
     position: fixed;
-
     background-color: #FFFFFF;
-    /* border:1px solid #5c5b5b; */
+    border-bottom: 1px solid #5c5b5b;
 }
 
 #search {
     width: 130px;
-    border: 1px solid #026800E5;
+    border-: 1px solid #026800E5;
     border-radius: 6px 0px 6px 0px;
     padding: 5px;
 }
@@ -76,46 +77,85 @@ header img {
 
 
 
-/* MAIN */
 
-main {
-    background-image: url('Polygon\ 2.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+
+
+
+
+
+/* MAIN/ */
+
+main{
+    padding: 0% 3% 0% 3%;
+}
+.div{
+height: 10rem;
+}
+
+
+.firstdiv p{
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0% 7% 0% 7%;
+    /* padding: 0% 15 0px 15px; */
+    }
+    
+    .firstdiv{
+    height: 10rem;
+    
+    }
+    
+    
+/* SECOND DIV */
+
+.seconddiv{
+    width: 1,301px;
     display: flex;
-    gap: 20px;
-    padding: 10%;
-}
-
-main img {
-    width: 526.5px;
-    height: 600px;
-
+    align-items: center;
+    justify-content: center;
+height: 618px;
+top: 471px;
+margin-top: 5%;
+gap: 24px;
 
 }
 
-h2 {
-    font-family: 'graduate';
-    text-align: center;
-}
-
-p {
-    text-align: center;
-    margin-bottom: 10px;
-line-height: 23px;
-
+.seconddiv img{
+    width: 501px;
+height: 580px;
+border-radius: 10px;
 
 }
 
+.seconddiv div{
+    width: 776px;
+height: 554px;
+gap: 24px;
+
+}
+
+.seconddiv p{
+font-family: Montserrat;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
 
 
+}
 
+.seconddiv h3{
+font-family: Montserrat;
+font-size: 21px;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
 
-
-
-
-
-
+}
 /* FOOTER */
 
 footer {

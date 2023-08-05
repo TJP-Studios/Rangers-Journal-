@@ -14,6 +14,7 @@ button,
 a {
     cursor: pointer;
     text-decoration: none;
+    color: #2B2B2B;
 }
 
 /* HEADER */
@@ -75,6 +76,151 @@ header img {
 }
 
 
+/* MAIN */
+.solo {}
+
+.firstdiv {
+    /* width: 1440px; */
+    background-image: url('mountains-139012_1280\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding-top: 12%;
+
+}
+
+.firstdiv h2 {
+    color: #CCDACC;
+    font-family: Graduate;
+    /* font-size: 22px; */
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.firstdiv p {
+    color: #FFFFFF;
+    text-align: center;
+    /* width: 50%; */
+    padding: 3% 10% 0% 10%;
+    line-height: 30px;
+}
+
+
+
+
+
+/* LAST */
+
+.last {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 5%;
+}
+
+
+.lastdiv {
+    width: 380px;
+    height: 323px;
+    top: 2279px;
+    left: 69px;
+
+}
+
+
+.lastdiv img {
+    width: 380px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.lastdiv p {
+    /* font-size: 21px; */
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2B2B2B;
+    /* width:190px; */
+}
+
+
+.lastdiv p {
+    text-align: center;
+}
+
+
+
+
+.more {
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 9px;
+    border: 1px solid#014400;
+    gap: 10px;
+    color: #014400;
+    text-align: center;
+    margin-left: 40%;
+
+}
+
+.more:hover {
+    background-color: #014400;
+
+}
+
+.more a:hover {
+    color: white;
+}
+
+.more a {
+    color: #014400;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+
+
+}
+
+.last1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 5%;
+    margin-bottom: 15%;
+
+}
+
+.lastdiv1 {
+    width: 380px;
+    height: 323px;
+    top: 2279px;
+    left: 69px;
+}
+
+.lastdiv1 img {
+    width: 380px;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.lastdiv1 h3 {
+    text-align: center;
+}
+
+.lastdiv1 p {
+    text-align: left;
+}
+
+
+
+
 
 
 
@@ -93,6 +239,7 @@ footer {
     /* top: 1634px; */
 
 }
+
 
 #png {
     width: 70%;
