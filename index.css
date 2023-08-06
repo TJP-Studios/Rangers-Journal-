@@ -365,9 +365,11 @@ header img {
     line-height: 26px;
     letter-spacing: 0em;
     text-align: center;
+   
+}
+.lastdiv a{
     color: #2B2B2B;
 }
-
 /* THIRD SECTION */
 
 .thirdsection {
