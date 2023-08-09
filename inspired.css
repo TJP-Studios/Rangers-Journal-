@@ -40,7 +40,9 @@ nav ::placeholder {
     font-family: Montserrat;
     font-size: 16px;
 }
-
+.icon{
+    display: none;
+}
 .submit {
     background-color: #026800E5;
     border: none;
@@ -228,4 +230,102 @@ form {
 
 .email1 a {
     color: black;
+}
+
+
+
+
+/* MEDIA QUERRY */
+
+
+@media screen and (max-width:563px) {
+   
+    /* HEADER */
+
+
+  header img{
+width: 35%;
+  }  
+.nav{
+    display: none;
+    flex-direction: column;
+}
+
+
+.submit{
+    display: none;
+}
+#search{
+    display: none;
+}
+
+nav .icon{
+    display: block;
+
+}
+nav a{
+text-decoration: none;
+color: black;
+}
+
+.visible{
+    display: block;
+    padding: 10px;
+}
+
+
+
+
+
+/* FOOTER */
+footer{
+    flex-direction: column;
+    width: 100%;
+}
+hr{
+    flex-direction: row;
+    width: 100%;
+}
+#png{
+    width: 40%;
+}
+.png img{
+    width: 40px;
+height: 40px;
+
+}
+.footerdiv1{
+  padding-left: 20%; 
+  
+}
+}
+
+/* mobile s 320px */
+
+@media screen and (max-width:360px) {
+
+
+    footer{
+        width: 120%;
+    }
+}
+
+
+/* mobile s 300px */
+
+@media screen and (max-width:300px) {
+
+
+    footer{
+        width: 150%;
+    }
+}
+
+/* mobile s 240px */
+
+@media screen and (max-width:240px) {
+
+    footer{
+        width: 200%;
+    }
 }

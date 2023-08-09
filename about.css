@@ -25,7 +25,7 @@ header {
     width: 100%;
     position: fixed;
     background-color: #FFFFFF;
- 
+
 }
 
 #search {
@@ -69,6 +69,11 @@ nav {
 
 }
 
+.icon {
+    display: none;
+
+}
+
 header img {
     width: 12%;
 }
@@ -101,7 +106,7 @@ h2 {
 p {
     text-align: center;
     margin-bottom: 10px;
-line-height: 23px;
+    line-height: 23px;
 
 
 }
@@ -134,7 +139,7 @@ footer {
 
 .footerdiv1 {
     padding: 1%;
-    margin-left: 7%;
+
 }
 
 .png {
@@ -152,10 +157,12 @@ footer {
 
 .footerdiv2 {
     padding: 1%;
+    padding-right: 4%;
+
 }
 
 .footerdiv3 {
-    padding-right: 4%;
+    margin-left: 7%;
 }
 
 .graduate {
@@ -207,4 +214,275 @@ form {
 
 .email1 a {
     color: black;
+}
+
+
+
+
+/* MEDIA QUERRY */
+
+/* max-width 930px */
+
+@media screen and (min-width:825px) and (max-width:930px) {
+    header img {
+        width: 20%;
+    }
+
+
+    main {
+        flex-direction: column;
+
+    }
+
+
+
+    main img {
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    main div {
+        color: white;
+    }
+
+    footer form {
+        margin-top: 5%;
+    }
+}
+
+/* Max-width 825px */
+
+@media screen and (min-width:717px) and (max-width:825px) {
+    header img {
+        width: 20%;
+        margin-right: 5%;
+    }
+
+
+    main {
+        flex-direction: column;
+        color: white;
+        
+    }
+
+
+main img{
+    width:80% ;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+    .nav {
+        display: none;
+        flex-direction: column;
+    }
+
+    .icon {
+        display: block;
+    }
+    nav a {
+        text-decoration: none;
+        color: black;
+        font-size: x-large;
+    }
+    footer form {
+        margin-top: 5%;
+    }
+}
+
+
+/* Max-width 717px */
+
+@media screen and (min-width:563px) and (max-width:717px) {
+    header img {
+        width: 20%;
+        margin-right: 5%;
+    }
+
+
+    main {
+        flex-direction: column;
+        color: white;
+        
+    }
+
+
+main img{
+    width:80% ;
+    margin-top: 7%;
+    margin-left: 10%;
+}
+
+    .nav {
+        display: none;
+        flex-direction: column;
+    }
+
+    .icon {
+        display: block;
+    }
+    nav a {
+        text-decoration: none;
+        color: black;
+        font-size: x-large;
+    }
+    footer form {
+        margin-top: 5%;
+      
+    }
+
+    main{
+        width: 107%;
+    }
+
+    footer{
+        width: 107%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:563px) {
+
+    /* HEADER */
+
+
+
+    header img {
+        width: 35%;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+    }
+
+
+    .submit {
+        display: none;
+    }
+
+    #search {
+        display: none;
+    }
+
+    nav .icon {
+        display: block;
+
+    }
+
+    nav a {
+        text-decoration: none;
+        color: black;
+        font-size: x-large;
+    }
+
+    .visible {
+        display: block;
+        padding: 10px;
+    }
+
+    /* MAIN */
+    main {
+        width: 100%;
+        flex-direction: column;
+    }
+
+
+    main img {
+        width: 80%;
+        height: 441px;
+        margin-top: 17%;
+        margin-left: 10%;
+    }
+
+    main div {
+        color: white;
+    }
+
+    /* FOOTER */
+    footer {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    hr {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #png {
+        width: 40%;
+    }
+
+    .png img {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .footerdiv1 {
+        padding-left: 20%;
+
+    }
+}
+
+/* mobile s 320px */
+
+@media screen and (max-width:360px) {
+
+    main {
+        width: 120%;
+        /* padding: 20%; */
+    }
+
+    main img {
+
+        margin-top: 20%;
+    }
+
+    footer {
+        width: 120%;
+    }
+}
+
+
+/* mobile s 300px */
+
+@media screen and (max-width:300px) {
+
+    main {
+        width: 150%;
+        /* padding: 20%; */
+    }
+
+    main img {
+
+        margin-top: 20%;
+    }
+
+    footer {
+        width: 150%;
+    }
+}
+
+/* mobile s 240px */
+
+@media screen and (max-width:240px) {
+
+    main {
+        width: 200%;
+        /* padding: 20%; */
+    }
+
+    main img {
+
+        margin-top: 20%;
+    }
+
+    footer {
+        width: 200%;
+    }
 }
