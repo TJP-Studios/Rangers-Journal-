@@ -1,0 +1,764 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  .travelresouceimage header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    background-color: #ffffff;
+    border: 1px solid #5c5b5b;
+    font-family: Montserrat;
+  }
+  
+  #search {
+    width: 130px;
+    border: 1px solid #026800e5;
+    border-radius: 6px 0px 6px 0px;
+    padding: 5px;
+  }
+  
+  nav ::placeholder {
+    font-family: Montserrat;
+    font-size: 16px;
+  }
+  
+  .submit {
+    background-color: #026800e5;
+    border: none;
+    height: 30px;
+    width: 36px;
+    margin: none;
+    cursor: pointer;
+    border-radius: 6px 0px 6px 0px;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 30px;
+  }
+  
+  nav {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: #2b2b2b;
+    margin-top: 4px;
+  }
+  
+  header img {
+    width: 12%;
+  }
+  
+  .travelresouceimage {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+    margin-left: 0.5%;
+  }
+  .travelresouceimage img {
+    width: 100%;
+  }
+  .traveltext {
+    font-family: Graduate;
+    font-size: 49px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .travelplanning {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+  }
+  
+  .travefy {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    margin-left: 2%;
+    padding: 4%;
+    margin-right: 2%;
+    border-radius: 16px;
+    margin-left: 2%;
+    width: 30%;
+  }
+  .travefyimg img {
+    width: 100%;
+  }
+  .travefyparagrph {
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2b2b2b;
+  }
+  .travefytext {
+    text-align: center;
+  }
+  .travelguidetext {
+    margin-top: 20%;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2b2b2b;
+  }
+  .headtravelguide {
+    text-align: center;
+    margin-bottom: 10%;
+  }
+  .travelguide {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    padding: 4%;
+    width: 30%;
+  }
+  
+  .lonelyplanet {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #d9d9d9;
+    border-radius: 16px;
+    margin-right: 2%;
+    padding: 4%;
+    width: 30%;
+  }
+  .lonelyplanetparagraph {
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2b2b2b;
+  }
+  .headflights {
+    font-family: Graduate;
+    font-size: 49px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .flights {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+  }
+  
+  .googleflights {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    margin-left: 2%;
+    padding: 4%;
+    margin-right: 2%;
+    border-radius: 16px;
+    margin-left: 2%;
+  }
+  .googleflightsparargraph {
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2b2b2b;
+  }
+  .googleflights img {
+    width: 100%;
+  }
+  .skyscanner {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    padding: 4%;
+    margin-right: 2%;
+    border-radius: 16px;
+  }
+  .skyscanner img {
+    width: 100%;
+  }
+  .skyscnnerparagraph {
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2b2b2b;
+  }
+  .momondo {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    padding: 4%;
+    margin-right: 2%;
+    border-radius: 16px;
+  }
+  .momondo img {
+    width: 100%;
+  }
+  .momondoparagrapgh {
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2b2b2b;
+  }
+  .flights2 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+  }
+  
+  .flightspng {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    padding: 4%;
+    margin-right: 2%;
+    border-radius: 16px;
+  }
+  .flightspng img{
+      width: 100%;
+  }
+  .katak {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    padding: 4%;
+    margin-right: 2%;
+    border-radius: 16px;
+  }
+  .katak img{
+      width: 100%;
+  }
+  .katakparagrapgh{
+      font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2b2b2b;
+  }
+  .cheapair {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    margin-left: 2%;
+    padding: 4%;
+    margin-right: 2%;
+    border-radius: 16px;
+    margin-left: 2%;
+  }
+  .cheapair img{
+      width: 100%;
+  }
+  .cheapairparagrapgh {
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2b2b2b;
+  }
+  .headtarvelinsurance{
+      font-family: Graduate;
+  font-size: 49px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+  
+  }
+  .Travelinsurance {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1%;
+  }
+  
+  .nomads {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    margin-left: 2%;
+    padding: 4%;
+    margin-right: 2%;
+    border-radius: 16px;
+    margin-left: 2%;
+  }
+  .nomads img {
+      width: 100%;
+  }
+  .nomadsparagraph{
+      font-family: Montserrat;
+      font-size: 19px;
+      font-weight: 500;
+      line-height: 23px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #2b2b2b;
+  }
+  .insurance {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-right: 2%;
+    border-radius: 16px;
+    margin-left: 2%;
+    padding: 4%;
+    margin-right: 2%;
+    border-radius: 16px;
+    margin-left: 2%;
+  }
+  .insurance img{
+      width: 100%;
+  }
+  .ACCOMODTION {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+  }
+  .headaccomodation{
+      font-family: Graduate;
+  font-size: 49px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+  }
+  .airbnb {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    margin-left: 2%;
+    padding: 4%;
+    margin-right: 2%;
+    border-radius: 16px;
+    margin-left: 2%;
+  }
+  .airbnb img{
+      width: 100%;
+  }
+  .bnbparagrapgh{
+      font-family: Montserrat;
+      font-size: 19px;
+      font-weight: 500;
+      line-height: 23px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #2b2b2b; 
+  }
+  .booking {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    margin-left: 2%;
+    padding: 4%;
+    margin-right: 2%;
+    border-radius: 16px;
+    margin-left: 2%;
+  }
+  .booking img{
+      width: 100%;
+  }
+  .bookingparagraph{
+      font-family: Montserrat;
+      font-size: 19px;
+      font-weight: 500;
+      line-height: 23px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #2b2b2b; 
+  }
+  .hotelworlds {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    margin-left: 2%;
+    padding: 4%;
+    margin-right: 2%;
+    border-radius: 16px;
+    margin-left: 2%;
+  }
+  .hotelworlds img{
+      width: 100%;
+  }
+  .hotelsworldsparagrapgh{
+      font-family: Montserrat;
+      font-size: 19px;
+      font-weight: 500;
+      line-height: 23px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #2b2b2b; 
+  }
+  .transportation {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+  }
+  .transportation img {
+  width: 100%;
+  }
+  .rentalcare {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    padding: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 16px;
+  }
+  
+  .traveltrain {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    padding: 4%;
+    margin-right: 2%;
+    border-radius: 16px;
+  }
+  
+  .rome2rio {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    padding: 4%;
+    margin-right: 2%;
+    border-radius: 16px;
+  }
+  
+  .packingguide {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+  }
+  
+  .imgpackingguide {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 16px;
+    padding: 4%;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 16px;
+  }
+  
+  .packingguidewriteup {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    padding: 4%;
+    margin-right: 2%;
+    border-radius: 16px;
+  }
+  .packingguidetext {
+    margin-top: 20%;
+  }
+  
+  .Gears {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+  }
+  .imggears {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    padding: 4%;
+    margin-right: 2%;
+    border-radius: 16px;
+  }
+  
+  .rei {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    padding: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 16px;
+  }
+  
+  .patagonia {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    padding: 4%;
+    margin-right: 2%;
+    border-radius: 16px;
+  }
+  
+  .STAYCONNECTED {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+    flex-direction: row;
+  }
+  
+  .solis {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    padding: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 16px;
+  }
+  
+  .imgphone {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    padding: 4%;
+    margin-right: 2%;
+    border-radius: 16px;
+  }
+  
+  .expressvpn {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    padding: 4%;
+  }
+  .Tourcompanies {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+  }
+  .getyourguide {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    padding: 4%;
+    margin-left: 2%;
+  }
+  .walks {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    padding: 4%;
+  }
+  .intrepid {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: 2px solid #d9d9d9;
+    margin-right: 2%;
+    border-radius: 16px;
+    padding: 4%;
+    margin-left: 2%;
+  }
+  .worldimg {
+    margin: 2%;
+    border-radius: 4px;
+  }
+  .worldimg img {
+    width: 100%;
+  }
+  /* h1 {
+    text-align: center;
+    margin-bottom: 5%;
+  } */
+  a {
+    font-family: Graduate;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #026800;
+    text-align: center;
+    margin-top: 10%;
+    text-decoration-line: none;
+  }
+  
+  /* FOOTER */
+  
+  footer {
+    background-color: #d9d9d9;
+    display: flex;
+    width: auto;
+    height: auto;
+    /* top: 1634px; */
+    font-family: Montserrat;
+  }
+  
+  #png {
+    width: 70%;
+    align-items: center;
+    margin: 10%;
+  }
+  
+  .footerdiv1 {
+    padding: 5% 5% 0% 5%;
+  }
+  
+  .png {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .png img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .footerdiv2 {
+    /* padding-left: 5%; */
+    padding: 5% 10% 2% 10%;
+  }
+  
+  .footerdiv3 {
+    padding: 5% 5% 2% 5%;
+    margin-left: 10%;
+  }
+  
+  .graduate {
+    font-family: Graduate;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  
+  .links {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .email {
+    width: 240px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 7px;
+  }
+  
+  .email1 {
+    width: 240px;
+    padding: 10px;
+    border-radius: 19px;
+    border: none;
+    background-color: #014400;
+  }
+  
+  .email1:hover {
+    background-color: #ffffff;
+  }
+  
+  .email1 a {
+    color: black;
+  }
+  
