@@ -94,7 +94,7 @@ header img {
     border: 1px;
 }
 .firstsection div{
-    padding-top: 25%;
+    padding-top: 20%;
     padding-left: 10%;
 }
 .firstsection p {
@@ -542,6 +542,46 @@ form {
 /* MEDIA QUERRY */
 
 
+/* desktop 1257 */
+@media screen and (max-width:1275px) {
+  .secondsection{
+ padding-left: 5%;
+  }
+    .firstsection{
+        width: 105%;
+    }
+.thirdsection{
+    width: 105%;
+}
+
+footer{
+    width: 105%;
+}
+
+}
+
+/* desktop 1219 */
+
+@media screen and (max-width:1219px) {
+           .firstsection{
+               width: 110%;
+           }
+       .thirdsection{
+           width: 110%;
+       }
+       
+       footer{
+           width: 110%;
+       }
+       
+}
+
+
+
+
+
+
+/* mobile 563 */
 @media screen  and (max-width:563px) {
 
     /* HEADER */
@@ -591,7 +631,7 @@ form {
     }
 
     .firstsection {
-        width: 100%;
+        width: 110%;
         height: 30rem;
 
     }
