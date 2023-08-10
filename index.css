@@ -90,10 +90,13 @@ header img {
     background-size: cover;
     width: auto;
     height: 878px;
-    top: 146px;
+    
     border: 1px;
 }
-
+.firstsection div{
+    padding-top: 25%;
+    padding-left: 10%;
+}
 .firstsection p {
     font-size: 31px;
     font-weight: 800;
@@ -539,12 +542,12 @@ form {
 /* MEDIA QUERRY */
 
 
-@media screen and (max-width:563px) {
+@media screen  and (max-width:563px) {
 
     /* HEADER */
 
     header {
-        width: 563px;
+        width: 100%;
     }
 
     header img {
@@ -584,11 +587,11 @@ form {
     /* MAIN */
 
     main {
-        width: auto;
+        width: 100%;
     }
 
     .firstsection {
-        width: auto;
+        width: 100%;
         height: 30rem;
 
     }
@@ -697,32 +700,72 @@ form {
     }
 }
 
+
+
+/* MOBILE 417 */
+
+@media screen and (max-width:417px) {
+    
+main{
+    width: 110%;
+
+}
+
+
+
+}
+
+/* MOBILE 385PX */
+
+@media screen and (max-width:385px) {
+
+    main{
+        width: 120%;
+ 
+    }
+.firstsection{
+    width: 120%;
+}
+.thirdsection{
+    width:120%;
+}
+
+footer{
+    width: 120%;
+}
+.secondsection{
+    padding-left: 20%;
+}
+
+
+
+}
+
+/* MOBILE 301PX */
+
+@media screen and (max-width:301px) {
+    main{
+        width: 130%;
+ 
+    }
+.firstsection{
+    width: 130%;
+}
+.thirdsection{
+    width:130%;
+}
+
+footer{
+    width: 130%;
+}
+.secondsection{
+    /* padding-left: 20%; */
+}
+
+}
+
 /* mobile s 320px */
 
-@media screen and (max-width:360px) {
-
-
-    footer {
-        width: 120%;
-    }
-}
 
 
 /* mobile s 300px */
-
-@media screen and (max-width:300px) {
-
-
-    footer {
-        width: 150%;
-    }
-}
-
-/* mobile s 240px */
-
-@media screen and (max-width:240px) {
-
-    footer {
-        width: 200%;
-    }
-}
