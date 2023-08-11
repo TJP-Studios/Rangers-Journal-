@@ -209,11 +209,11 @@ form {
 
 .email1:hover {
     background-color: #FFFFFF;
-
+color: white;
 }
 
 .email1 a {
-    color: black;
+    color: white;
 }
 
 

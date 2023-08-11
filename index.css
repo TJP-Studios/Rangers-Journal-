@@ -210,7 +210,7 @@ header img {
     margin-top: 2%;
     align-items: center;
     justify-content: center;
-    display: none;
+    /* display: none; */
 }
 
 .secondsectiondiv5 {
@@ -221,7 +221,7 @@ header img {
     margin-top: 2%;
     align-items: center;
     justify-content: center;
-    display: none;
+    /* display: none; */
 }
 
 .secondsectiondiv6 {
@@ -232,7 +232,7 @@ header img {
     margin-top: 2%;
     align-items: center;
     justify-content: center;
-    display: none;
+    /* display: none; */
 }
 
 .div1 {
@@ -525,15 +525,16 @@ form {
     background-color: #FFFFFF;
 
 }
+.email1 a{
+    color: white;
+}
 
-.email1 a {
+.email1 a:hover{
     color: black;
 }
 
 
-.balls {
-    display: none;
-}
+
 
 
 
@@ -543,7 +544,7 @@ form {
 
 
 /* desktop 1257 */
-@media screen and (max-width:1275px) {
+ @media screen and (max-width:1275px) {
   .secondsection{
  padding-left: 5%;
   }
@@ -558,7 +559,10 @@ footer{
     width: 105%;
 }
 
-}
+} 
+
+
+
 
 /* desktop 1219 */
 
@@ -576,16 +580,108 @@ footer{
        
 }
 
+@media screen and (max-width:) {
+    
+}
+
+/* Max-width 717px */
+@media screen and (min-width:563px) and (max-width:717px) {
+    body{
+        width: 717px;
+    }
+    header img {
+        width: 20%;
+        margin-right: 5%;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+    }
+
+    .icon {
+        display: block;
+    }
+    nav a {
+        text-decoration: none;
+        color: black;
+        font-size: x-large;
+    }
+    footer form {
+        margin-top: 5%;
+      
+    }
 
 
+    .last {
+        flex-direction: column;
 
+    }
+footer{
+    width: auto;
+}
+
+.footerdiv3{
+    padding-right: 5%;
+}
+.footerdiv2{
+    padding-left: 5%;
+}
+.footerdiv1{
+padding-top: 5%;
+}
+
+    .rec {
+
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+
+    .lastdiv {
+        width: 80%;
+        height: 80%;
+    }
+
+
+    .lastdiv img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .post hr{
+        width: 30%;
+    }
+
+    .third{
+        padding-right: 25%;
+
+    }
+.thirdsection{
+    height: 30rem;
+width: auto;
+}
+  
+
+    
+    .none2,
+    .none3 {
+        display: none;
+    }
+
+    .firstsection{
+        height: 35rem;
+       width: auto;
+    }
+
+}
 
 
 /* mobile 563 */
 @media screen  and (max-width:563px) {
 
     /* HEADER */
-
     header {
         width: 100%;
     }
@@ -626,6 +722,10 @@ footer{
 
     /* MAIN */
 
+.third{
+    padding-right: 100%;
+}
+
     main {
         width: 100%;
     }
@@ -643,12 +743,16 @@ footer{
 
     .firstsection p {
         text-align: center;
-        font-size: 20px;
+        font-size: 25px;
         line-height: normal;
         width: 100%;
         /* display: none; */
     }
 
+
+    .secondsection{
+        padding-left: 10%;
+    }
 
     .secondsectiondiv1 h2 {
         font-size: 18px;
@@ -658,18 +762,6 @@ footer{
     .none2,
     .none3 {
         display: none;
-    }
-
-    .balls div {
-        display: block;
-        display: flex;
-        background-color: #014400;
-        align-items: center;
-        justify-content: center;
-        width: 5%;
-        border-radius: 100%;
-        color: #014400;
-        border: 1px solid rgb(35, 46, 35);
     }
 
     .last {
@@ -686,8 +778,8 @@ footer{
 
 
     .lastdiv {
-        width: 80%;
-        height: 80%;
+        width: 85%;
+        height: 85%;
     }
 
 
@@ -712,7 +804,7 @@ footer{
     /* FOOTER */
     footer {
         flex-direction: column;
-        width: auto;
+        width: 110%;
     }
 
     hr {
@@ -777,6 +869,18 @@ footer{
     padding-left: 20%;
 }
 
+
+.lastdiv {
+    width: 110%;
+    height: 110%;
+}
+
+
+.lastdiv img {
+    width: 100%;
+    height: 100%;
+
+}
 
 
 }
