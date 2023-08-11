@@ -52,6 +52,7 @@ nav ::placeholder {
     margin: none;
     cursor: pointer;
     border-radius: 6px 0px 6px 0px;
+    color: white;
 }
 
 .nav {
@@ -170,25 +171,20 @@ header img {
     gap: 10px;
     color: #014400;
     text-align: center;
-
+        font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
 }
 
 .secondsectiondiv1 button:hover {
     background-color: #014400;
-}
 
-.secondsectiondiv1 a:hover {
+
     color: white;
 }
 
-.secondsectiondiv1 a {
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 21px;
-    letter-spacing: 0em;
 
-    color: #014400;
-}
 
 
 
@@ -414,7 +410,7 @@ form ::placeholder {
     font-weight: 600;
     line-height: 26px;
     letter-spacing: 0em;
-    /* text-align: center; */
+    text-align: center;
     color: #FFFFFF;
 
 }
@@ -580,8 +576,13 @@ footer{
        
 }
 
-@media screen and (max-width:) {
-    
+
+/* Max-width 717px */
+@media screen and (min-width:717px) and (max-width:1099px) {
+    body{
+        width: 1099px;
+    }
+
 }
 
 /* Max-width 717px */
@@ -663,12 +664,28 @@ padding-top: 5%;
 width: auto;
 }
   
+.secondsectiondiv2{
+    flex-direction: column;
+    height: 50%;
+}
 
+.secondsectiondiv5{
+    flex-direction: column;
+    height: 50%;
+}
+.secondsectiondiv6{
+    flex-direction: column;
+    height: 50%;
+}
+.secondsectiondiv4{
+flex-direction: column;
+height: 50%;
+}
     
-    .none2,
+    /* .none2,
     .none3 {
         display: none;
-    }
+    } */
 
     .firstsection{
         height: 35rem;
@@ -759,11 +776,30 @@ width: auto;
     }
 
 
-    .none2,
+    /* .none2,
     .none3 {
         display: none;
-    }
+    } */
 
+
+     
+.secondsectiondiv2{
+    flex-direction: column;
+    height: 50%;
+}
+
+.secondsectiondiv5{
+    flex-direction: column;
+    height: 50%;
+}
+.secondsectiondiv6{
+    flex-direction: column;
+    height: 50%;
+}
+.secondsectiondiv4{
+flex-direction: column;
+height: 50%;
+}
     .last {
         flex-direction: column;
 
@@ -839,13 +875,30 @@ width: auto;
 @media screen and (max-width:417px) {
     
 main{
-    width: 110%;
-
+    width: 110%;}
+ 
+    .secondsectiondiv2{
+        flex-direction: column;
+        height: 50%;
+    }
+    
+    .secondsectiondiv5{
+        flex-direction: column;
+        height: 50%;
+    }
+    .secondsectiondiv6{
+        flex-direction: column;
+        height: 50%;
+    }
+    .secondsectiondiv4{
+    flex-direction: column;
+    height: 50%;
+    }
 }
 
 
 
-}
+
 
 /* MOBILE 385PX */
 
@@ -882,7 +935,24 @@ footer{
 
 }
 
+ 
+.secondsectiondiv2{
+    flex-direction: column;
+    height: 50%;
+}
 
+.secondsectiondiv5{
+    flex-direction: column;
+    height: 50%;
+}
+.secondsectiondiv6{
+    flex-direction: column;
+    height: 50%;
+}
+.secondsectiondiv4{
+flex-direction: column;
+height: 50%;
+}
 }
 
 /* MOBILE 301PX */
@@ -905,7 +975,24 @@ footer{
 .secondsection{
     /* padding-left: 20%; */
 }
+ 
+.secondsectiondiv2{
+    flex-direction: column;
+    height: 50%;
+}
 
+.secondsectiondiv5{
+    flex-direction: column;
+    height: 50%;
+}
+.secondsectiondiv6{
+    flex-direction: column;
+    height: 50%;
+}
+.secondsectiondiv4{
+flex-direction: column;
+height: 50%;
+}
 }
 
 /* mobile s 320px */
