@@ -48,6 +48,7 @@ nav ::placeholder {
     margin: none;
     cursor: pointer;
     border-radius: 6px 0px 6px 0px;
+    color: white;
 }
 
 .nav {
@@ -209,11 +210,11 @@ form {
 
 .email1:hover {
     background-color: #FFFFFF;
-
+color: white;
 }
 
 .email1 a {
-    color: black;
+    color: white;
 }
 
 
@@ -342,7 +343,7 @@ main img{
 
 
 
-
+/* screen 563px */
 
 @media screen and (max-width:563px) {
 
