@@ -3,13 +3,18 @@
 }
 
 body {
-    background-color: #FFFFFF;
+  
     font-family: Montserrat;
     width: auto;
     margin: auto;
     padding: auto;
+    background-color:#0F0F0F;
+    background-position: top center;
+   background-image: url('https://josephkalu.com/wp-content/uploads/2022/05/Group-18.png');
 }
-
+main{
+    color: #FFFFFF;
+}
 button,
 a {
     cursor: pointer;
@@ -124,7 +129,9 @@ height: 618px;
 top: 471px;
 margin-top: 5%;
 gap: 24px;
-
+border: 2px solid white;
+border-radius: 10px;
+padding: 20px;
 }
 
 .seconddiv img{
@@ -173,6 +180,10 @@ top: 471px;
 margin-top: 5%;
 gap: 24px;
 
+
+border: 2px solid white;
+border-radius: 10px;
+
 }
 
 .thirddiv img{
@@ -220,7 +231,11 @@ height: 618px;
 top: 471px;
 margin-top: 5%;
 gap: 24px;
+margin-bottom: 10%;
 
+border: 2px solid white;
+border-radius: 10px;
+padding: 20px;
 }
 
 .fourthdiv img{
