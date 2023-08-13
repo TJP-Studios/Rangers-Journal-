@@ -1,0 +1,98 @@
+*{https://github.com/TJP-Studios/Rangers-Journal-/tree/dev-branch-2
+    /* margin: 0%;
+    padding: 0%; */
+    box-sizing: border-box;
+}
+.headimage img{
+width: 100%;
+}
+.packinglist img {
+    width: 100%;
+}
+.ultimatepackinglist{
+    text-align: center;
+}
+.packinglistwriteup{
+    text-align: center;
+}
+.backpackbold{
+    text-align: center;
+}
+.backpack{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.backpackwriteup{
+    margin-top: 8%;
+    margin-right: 2%;
+    width: 95%;
+}
+.bagpackimg{
+
+}
+.bagpackimg img{
+    width: 80%;
+}
+.travelbag{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+}
+.traavelbagimg img{
+width: 100%;
+}
+.travelbagwriteup{
+    margin-top: 10%;
+}
+.handbagrollingluggage{
+    text-align: center;
+    margin-top: 2%;
+}
+.liquidpouch{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    flex-wrap: nowrap;
+}
+.liquidpouchimg img{
+width: 100%;
+}
+.liquidpouchwriteup{
+    margin-top: 10%;
+}
+.gadgetstech{
+    text-align: center;
+}
+.gadgetsimg img{
+width: 100%;
+}
+.gadgetsimg{
+    margin: 1%;
+}
+.otherwriteup{
+    text-align: center;
+}
+.clockimg img{
+    width: 100%;
+}
+.earplugmask{
+    text-align: center;
+}
+.smallitems{
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+}
+.neckpillowimg img{
+    width: 100%;
+}
+.neckpillowimg{
+}
+.neckpillowwriteup{
+    margin-top: 10%;
+}
+.lastbags img{
+    width: 100%;
+}
