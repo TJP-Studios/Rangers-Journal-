@@ -43,6 +43,11 @@ nav ::placeholder {
 .icon{
     display: none;
 }
+
+.hamburger{
+    display: none;
+
+}
 .submit {
     background-color: #026800E5;
     border: none;
@@ -291,6 +296,70 @@ form {
         color: black;
         font-size: x-large;
     }
+
+    
+    /* hamburger menu */
+    
+nav{
+    position: relative;
+    z-index: 1;
+  
+    
+}
+    
+.hamburger{
+    position: fixed;
+    background-color: white;
+    
+    height: 100%;  
+    left: 290px;
+    width: 60%;
+top: 89px;
+border-left:1px solid black ;
+border-bottom:1px solid black ;
+
+}
+
+  
+.hamburger ul {
+    list-style-type: none;
+
+
+
+}
+
+.hamburger hr{
+width: 75%;
+}
+.hamburger ul li {
+    padding: 30px;
+    text-align: center;
+}
+.hamburger li a{
+    /* padding-left: 40%; */
+
+}
+
+
+.hamburger ul li a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  text-align: center;
+    font-weight: 600;
+/* top: 100px; */
+font-size: 20px;
+
+}
+
+.visible {
+    display: block;
+    padding: 10px;
+
+
+}
+  
+
     footer form {
         margin-top: 5%;
     }
@@ -459,4 +528,3 @@ width: 25%;
       
         }
     }
-}
