@@ -5,7 +5,7 @@
 body {
     background-color: #FFFFFF;
     font-family: Montserrat;
-    width: auto;
+    /* width: 100%; */
     margin: auto;
     padding: auto;
 }
@@ -60,6 +60,10 @@ nav ::placeholder {
     gap: 30px;
 }
 
+.hamburger{
+    display: none;
+
+}
 nav {
     display: flex;
     gap: 30px;
@@ -115,29 +119,26 @@ header img {
     left: 68px;
     padding: 10px 20px 10px 20px;
     border-radius: 9px 0px 9px 0px;
-    border: 1px solid rgb(53, 52, 52);
+   border-bottom:#026800E5 ;
     gap: 10px;
     cursor: pointer;
-    background-color: #044903;
-}
+    background-color: #026800E5 ;
 
-.firstsection button:hover {
-    background-color: white;
-}
-
-.firstsection a:hover {
-    color: #014400;
-}
-
-.firstsection a {
     font-size: 18px;
     font-weight: 600;
     line-height: 26px;
     letter-spacing: 0em;
     text-align: left;
-    color: #FFFFFF;
+    color: white;
     text-decoration: none;
 }
+
+.firstsection button:hover {
+    background-color:white ;
+    color:  #014400;
+}
+
+
 
 
 
@@ -166,8 +167,8 @@ header img {
 .secondsectiondiv1 button {
     background-color: #FFFFFF;
     padding: 10px;
-    border-radius: 6px;
-    border: 1px solid#014400;
+    border-radius: 9px 0px 9px 0px;
+    border-bottom: 1px solid#014400;
     gap: 10px;
     color: #014400;
     text-align: center;
@@ -179,8 +180,6 @@ header img {
 
 .secondsectiondiv1 button:hover {
     background-color: #014400;
-
-
     color: white;
 }
 
@@ -274,31 +273,25 @@ header img {
     background-color: #FFFFFF;
     padding: 10px;
     border-radius: 9px 0px 9px 0px;
-    border: 1px solid#014400;
+    border-bottom: 1px solid#014400;
     gap: 10px;
     color: #014400;
     text-align: center;
     margin-left: 30%;
-}
 
-.div1 button:hover {
-    background-color: #014400;
-
-}
-
-.div1 a:hover {
-    color: white;
-}
-
-.div1 a {
-    color: #014400;
     font-size: 17px;
     font-weight: 400;
     line-height: 21px;
     letter-spacing: 0em;
 
-
 }
+
+.div1 button:hover {
+    background-color: #014400;
+    color: white;
+}
+
+
 
 
 .secondsectiondiv3 {
@@ -349,7 +342,7 @@ header img {
     left: 69px;
     border-radius: 15px;
     background-color: #D4D4D4;
-
+cursor: pointer;
 }
 
 .last {
@@ -372,12 +365,10 @@ header img {
     line-height: 26px;
     letter-spacing: 0em;
     text-align: center;
-
-}
-
-.lastdiv a {
     color: #2B2B2B;
 }
+
+
 
 /* THIRD SECTION */
 
@@ -429,6 +420,28 @@ form ::placeholder {
     border: none;
 }
 
+.text {
+    height: 46px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 9px 0px 9px 0px;
+   border-bottom:#026800E5 ;
+    gap: 10px;
+    cursor: pointer;
+
+    background-color: #026800E5 ;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.text:hover {
+    background-color:white ;
+    color:  #014400;
+}
 
 /* FOOTER */
 
@@ -448,7 +461,7 @@ footer {
 }
 
 .footerdiv1 {
-    padding: 1%;
+    /* padding: 1%; */
 
 }
 
@@ -466,8 +479,8 @@ footer {
 
 
 .footerdiv2 {
-    padding: 1%;
-    padding-right: 4%;
+
+    padding-right: 5%;
 
 }
 
@@ -499,34 +512,32 @@ form {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-bottom: 5%;
 }
 
 .email {
     width: 240px;
     padding: 10px;
-    border-radius: 6px;
-    border: none;
+    border-radius: 9px 0px 9px 0px;
     margin-bottom: 7px;
+
 }
 
 .email1 {
     width: 240px;
     padding: 10px;
-    border-radius: 19px;
-    border: none;
+    border-radius: 9px 0px 9px 0px;
+    border-bottom: 1px solid #f4faf4;
     background-color: #014400;
+        color: #014400;
+        color: white;
+     
 }
 
 .email1:hover {
     background-color: #FFFFFF;
-
-}
-.email1 a{
-    color: white;
-}
-
-.email1 a:hover{
-    color: black;
+    color: #014400;
+    border: 1px solid #044903;
 }
 
 
@@ -588,7 +599,10 @@ footer{
 /* Max-width 717px */
 @media screen and (min-width:563px) and (max-width:717px) {
     body{
-        width: 717px;
+        width: 100%;
+    }
+    header{
+        width: 110%;
     }
     header img {
         width: 20%;
@@ -598,7 +612,7 @@ footer{
     .nav {
         display: none;
         flex-direction: column;
-    }
+    }   
 
     .icon {
         display: block;
@@ -608,62 +622,112 @@ footer{
         color: black;
         font-size: x-large;
     }
+
+
+    /* hamburger menu */
+header{
+    position: relative;
+    z-index: 1;
+}
+    
+.hamburger{
+    position: absolute;
+    background-color: white;
+
+    width: 1300%;
+    height: 30rem;
+    left: 300px;
+}
+
+.hamburger ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.hamburger ul li {
+    padding: 10px;
+}
+
+
+
+.hamburger ul li a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  text-align: center;
+    font-style: normal;
+    font-weight: 600;
+top: 100px;
+
+}
+
+.visible {
+    display: block;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+  
+
     footer form {
         margin-top: 5%;
       
     }
-
+.div1{
+    padding-left: 3%;
+}
 
     .last {
         flex-direction: column;
 
     }
 footer{
-    width: auto;
+    /* width: 110%; */
+    
 }
 
 .footerdiv3{
     padding-right: 5%;
+   
 }
 .footerdiv2{
     padding-left: 5%;
+
 }
 .footerdiv1{
 padding-top: 5%;
 }
+.none2, .none3{
+    display: none;
+}
 
-    .rec {
-
-        padding-left: 15px;
-        padding-right: 15px;
-    }
     
 
-    .lastdiv {
-        width: 80%;
-        height: 80%;
+
+
+    #last3{
+        display: none;
+            }
+
+    #last2{
+display: none;
     }
-
-
-    .lastdiv img {
-        width: 100%;
-        height: 100%;
-
-    }
-
     .post hr{
         width: 30%;
     }
 
     .third{
-        padding-right: 25%;
-
+        padding-right: 35%;
+/* margin-bottom: 20%; */
     }
 .thirdsection{
-    height: 30rem;
-width: auto;
+    /* height: 30rem; */
+width: 110%;
+
 }
-  
+
 .secondsectiondiv2{
     flex-direction: column;
     height: 50%;
@@ -682,18 +746,36 @@ flex-direction: column;
 height: 50%;
 }
     
-    /* .none2,
-    .none3 {
-        display: none;
-    } */
 
     .firstsection{
         height: 35rem;
-       width: auto;
+        width: 110%;
     }
 
 }
 
+
+
+/* screen 610*/
+@media screen and (min-width:563px) and (max-width:610px) {
+    header{
+        width: 117%;
+    }
+
+
+    .firstsection{
+        height: 35rem;
+        width: 117%;
+    }
+
+    .thirdsection{
+        width: 117%;
+    }
+
+    footer{
+        width: 117%;
+    }
+}
 
 /* mobile 563 */
 @media screen  and (max-width:563px) {
@@ -776,10 +858,10 @@ height: 50%;
     }
 
 
-    /* .none2,
+    .none2,
     .none3 {
         display: none;
-    } */
+    }
 
 
      
@@ -804,27 +886,14 @@ height: 50%;
         flex-direction: column;
 
     }
+    #last3{
+        display: none;
+            }
 
-
-    .rec {
-
-        padding-left: 15px;
-        padding-right: 15px;
+    #last2{
+display: none;
     }
-
-
-    .lastdiv {
-        width: 85%;
-        height: 85%;
-    }
-
-
-    .lastdiv img {
-        width: 100%;
-        height: 100%;
-
-    }
-
+ 
 
     .third {
         text-align: center;
