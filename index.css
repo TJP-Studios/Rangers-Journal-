@@ -8,6 +8,7 @@ body {
     /* width: 100%; */
     margin: auto;
     padding: auto;
+
 }
 
 button,
@@ -596,13 +597,18 @@ footer{
 
 }
 
+
+
 /* Max-width 717px */
 @media screen and (min-width:563px) and (max-width:717px) {
     body{
-        width: 100%;
+        width: 717px;
     }
     header{
-        width: 110%;
+        width: 717px;
+    }
+    main{
+        width: 717px;
     }
     header img {
         width: 20%;
@@ -612,6 +618,7 @@ footer{
     .nav {
         display: none;
         flex-direction: column;
+
     }   
 
     .icon {
@@ -625,31 +632,45 @@ footer{
 
 
     /* hamburger menu */
-header{
+nav{
     position: relative;
     z-index: 1;
+  
+    
 }
     
 .hamburger{
-    position: absolute;
+    position: fixed;
     background-color: white;
+    
+    height: 100%;  
+    left: 290px;
+    width: 60%;
+top: 89px;
+border-left:1px solid black ;
+border-bottom:1px solid black ;
 
-    width: 1300%;
-    height: 30rem;
-    left: 300px;
 }
 
+  
 .hamburger ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+
+
 
 }
 
+.hamburger hr{
+width: 75%;
+}
 .hamburger ul li {
-    padding: 10px;
+    padding: 30px;
+    text-align: center;
 }
+.hamburger li a{
+    /* padding-left: 40%; */
 
+}
 
 
 .hamburger ul li a {
@@ -657,17 +678,17 @@ header{
     color: black;
     cursor: pointer;
   text-align: center;
-    font-style: normal;
     font-weight: 600;
-top: 100px;
+/* top: 100px; */
+font-size: 20px;
 
 }
 
 .visible {
     display: block;
     padding: 10px;
-    align-items: center;
-    text-align: center;
+
+
 }
   
 
@@ -685,7 +706,7 @@ top: 100px;
     }
 footer{
     /* width: 110%; */
-    
+    width: 717px;
 }
 
 .footerdiv3{
@@ -724,7 +745,7 @@ display: none;
     }
 .thirdsection{
     /* height: 30rem; */
-width: 110%;
+    width: 717px;
 
 }
 
@@ -749,14 +770,16 @@ height: 50%;
 
     .firstsection{
         height: 35rem;
-        width: 110%;
+        /* width: 110%; */
+        
+              width: 717px;
     }
 
 }
 
 
 
-/* screen 610*/
+/* screen 610
 @media screen and (min-width:563px) and (max-width:610px) {
     header{
         width: 117%;
@@ -775,14 +798,18 @@ height: 50%;
     footer{
         width: 117%;
     }
-}
+}*/
 
 /* mobile 563 */
 @media screen  and (max-width:563px) {
 
+
+    body{
+        width: 563px;
+    }
     /* HEADER */
     header {
-        width: 100%;
+        width: 563px;
     }
 
     header img {
@@ -814,10 +841,60 @@ height: 50%;
         font-size: x-large;
     }
 
-    .visible {
-        display: block;
-        padding: 10px;
-    }
+   /* HAMBURGER    */
+.hamburger{
+    position: fixed;
+    background-color: white;
+    width: 67%;
+    height: 100%; 
+    left: 190px;
+top: 86px;
+border-left:1px solid black ;
+border-bottom:1px solid black ;
+
+}
+
+  
+.hamburger ul {
+    list-style-type: none;
+
+
+
+}
+
+.hamburger hr{
+width: 75%;
+}
+
+.hamburger ul li {
+    padding: 30px;
+    text-align: center;
+}
+
+.hamburger li a{
+    /* padding-left: 40%; */
+
+}
+
+
+.hamburger ul li a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  text-align: center;
+    font-weight: 600;
+/* top: 100px; */
+font-size: 20px;
+
+}
+
+.visible {
+    display: block;
+    padding: 10px;
+
+
+}
+  
 
     /* MAIN */
 
@@ -826,11 +903,11 @@ height: 50%;
 }
 
     main {
-        width: 100%;
+        width: 563px;
     }
 
     .firstsection {
-        width: 110%;
+        width: 563px;
         height: 30rem;
 
     }
@@ -851,6 +928,7 @@ height: 50%;
 
     .secondsection{
         padding-left: 10%;
+        margin-bottom: 7%;
     }
 
     .secondsectiondiv1 h2 {
@@ -894,7 +972,9 @@ height: 50%;
 display: none;
     }
  
-
+.thirdsection{
+    width: 563px;
+}
     .third {
         text-align: center;
         padding-right: 15%;
@@ -916,7 +996,7 @@ display: none;
         flex-direction: row;
         width: 100%;
     }
-
+ 
     #png {
         width: 40%;
     }
@@ -926,7 +1006,9 @@ display: none;
         height: 40px;
 
     }
-
+footer{
+    width: 563px;
+}
     .footerdiv1 {
         padding-left: 35%;
 
@@ -942,10 +1024,19 @@ display: none;
 /* MOBILE 417 */
 
 @media screen and (max-width:417px) {
-    
+
+    header{
+        /* width: 417px; */
+    }
+
 main{
-    width: 110%;}
+    width: 417px;
+}
  
+.secondsection{
+    margin-left: 25%;
+    margin-bottom: 10%;
+}
     .secondsectiondiv2{
         flex-direction: column;
         height: 50%;
@@ -974,61 +1065,23 @@ main{
 @media screen and (max-width:385px) {
 
     main{
-        width: 120%;
- 
+        width:385px;
     }
-.firstsection{
-    width: 120%;
-}
-.thirdsection{
-    width:120%;
-}
-
-footer{
-    width: 120%;
-}
-.secondsection{
-    padding-left: 20%;
-}
-
-
-.lastdiv {
-    width: 110%;
-    height: 110%;
-}
-
-
-.lastdiv img {
-    width: 100%;
-    height: 100%;
-
-}
-
  
-.secondsectiondiv2{
-    flex-direction: column;
-    height: 50%;
-}
 
-.secondsectiondiv5{
-    flex-direction: column;
-    height: 50%;
-}
-.secondsectiondiv6{
-    flex-direction: column;
-    height: 50%;
-}
-.secondsectiondiv4{
-flex-direction: column;
-height: 50%;
-}
+ .secondsection{
+   margin-left: 30%; 
+} 
+
+
+
 }
 
 /* MOBILE 301PX */
-
+/* 
 @media screen and (max-width:301px) {
     main{
-        width: 130%;
+        width: 301px;
  
     }
 .firstsection{
@@ -1042,7 +1095,7 @@ footer{
     width: 130%;
 }
 .secondsection{
-    /* padding-left: 20%; */
+    /* padding-left: 20%; 
 }
  
 .secondsectiondiv2{
@@ -1062,7 +1115,7 @@ footer{
 flex-direction: column;
 height: 50%;
 }
-}
+} */
 
 /* mobile s 320px */
 

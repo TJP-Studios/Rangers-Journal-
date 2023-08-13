@@ -3,11 +3,14 @@
 }
 
 body {
-    background-color: #FFFFFF;
+
     font-family: Montserrat;
     width: auto;
     margin: auto;
     padding: auto;
+    background-color: #0F0F0F;
+    background-position: top center;
+    background-image: url('https://josephkalu.com/wp-content/uploads/2022/05/Group-18.png');
 }
 
 button,
@@ -25,7 +28,7 @@ header {
     width: 100%;
     position: fixed;
     background-color: #FFFFFF;
-
+/* border-bottom: 1px solid black; */
 }
 
 #search {
@@ -49,6 +52,11 @@ nav ::placeholder {
     cursor: pointer;
     border-radius: 6px 0px 6px 0px;
     color: white;
+}
+
+.hamburger {
+    display: none;
+
 }
 
 .nav {
@@ -88,15 +96,17 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    gap: 20px;
     padding: 10%;
+    color: white;
+    gap: 40px;
+
 }
 
 main img {
-    width: 526.5px;
-    height: 600px;
-border-radius: 10px;
-/* opacity: 0.7; */
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+
 }
 
 h2 {
@@ -106,12 +116,20 @@ h2 {
 
 p {
     text-align: center;
-    margin-bottom: 10px;
-    line-height: 23px;
+    /* margin-bottom: 10px; */
+    line-height: 30px;
+    letter-spacing: 1px;
 
 
 }
 
+.div {
+    height: 10%;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 5%;
+}
 
 
 
@@ -199,7 +217,8 @@ form {
     margin-bottom: 7px;
 
 }
-.email::placeholder{
+
+.email::placeholder {
     /* font-weight: 600; */
     font-family: montserrat;
     font-size: 14px;
@@ -211,9 +230,9 @@ form {
     border-radius: 9px 0px 9px 0px;
     border-bottom: 1px solid #f4faf4;
     background-color: #014400;
-        color: #014400;
-        color: white;
-     font-weight: 600;
+    color: #014400;
+    color: white;
+    font-weight: 600;
 }
 
 .email1:hover {
@@ -245,9 +264,11 @@ form {
     main img {
         margin-left: 10%;
         margin-top: 5%;
+        width: 70%;
+        height: 50%;
     }
 
-    main div {
+    .div {
         color: white;
     }
 
@@ -258,7 +279,7 @@ form {
 
 /* Max-width 825px */
 
-@media screen and (min-width:717px) and (max-width:825px) {
+@media screen and (max-width:825px) {
     header img {
         width: 20%;
         margin-right: 5%;
@@ -268,15 +289,15 @@ form {
     main {
         flex-direction: column;
         color: white;
-        
+
     }
 
 
-main img{
-    width:80% ;
-    margin-top: 5%;
-    margin-left: 10%;
-}
+    main img {
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
 
     .nav {
         display: none;
@@ -286,21 +307,96 @@ main img{
     .icon {
         display: block;
     }
+
     nav a {
         text-decoration: none;
         color: black;
         font-size: x-large;
     }
+
     footer form {
         margin-top: 5%;
     }
+
+
+    /* hamburger menu */
+    nav {
+        position: relative;
+        z-index: 1;
+
+
+    }
+
+    .hamburger {
+        position: fixed;
+        background-color: white;
+
+        height: 100%;
+        left: 310px;
+        width: 63%;
+        top: 92px;
+        /* border-left: 1px solid black;
+        border-bottom: 1px solid black; */
+
+    }
+
+
+    .hamburger ul {
+        list-style-type: none;
+
+
+
+    }
+
+    .hamburger hr {
+        width: 75%;
+    }
+
+    .hamburger ul li {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .hamburger li a {
+        /* padding-left: 40%; */
+
+    }
+
+
+    .hamburger ul li a {
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+        text-align: center;
+        font-weight: 600;
+        /* top: 100px; */
+        font-size: 20px;
+
+    }
+
+    .visible {
+        display: block;
+        padding: 10px;
+
+
+    }
 }
 
+/* HAMBURGER ADJUSTMENT 773 */
+@media screen and (max-width:773px) {
+    .hamburger{
+        left: 300px;
+        width: 63%;
+        top: 87px;
+    }
+    
+}
 
 /* Max-width 717px */
 
 @media screen and (min-width:563px) and (max-width:717px) {
     /* HEADER */
+
     header img {
         width: 20%;
         margin-right: 5%;
@@ -314,27 +410,64 @@ main img{
     .icon {
         display: block;
     }
+
     nav a {
         text-decoration: none;
         color: black;
         font-size: x-large;
     }
+
     footer form {
         margin-top: 5%;
-      
+
     }
 
-    main{
-        width: 107%;
+    main {
+        padding-top: 15%;
+        /* width: 107%; */
+        flex-direction: column;
     }
 
+
+}
+
+
+/* HAMBURGER ADJUSTMENT 697 */
+@media screen and (max-width:697px) {
+    .hamburger{
+        left: 255px;
+        width: 63%;
+        top: 85px;
+    }
+    
     footer{
-        width: 107%;
+width: 697px;
     }
+    body{
+        width: 697px; 
+    }
+    
 }
 
 
 
+@media screen and (max-width:673px) {
+    .hamburger{
+        left: 200px;
+        width: 70%;
+        top: 80px;
+    }
+    
+}
+
+/* HAMBURGER ADJUSTMENT 577 */
+@media screen and (max-width:577px) {
+    .hamburger{
+        left: 200px;
+        width: 60%;
+        top: 75px;
+    }
+}
 /* screen 563px */
 
 @media screen and (max-width:563px) {
@@ -377,7 +510,7 @@ main img{
         padding: 10px;
     }
 
-    /* MAIN */
+    /* MAIN  */
     main {
         width: 100%;
         flex-direction: column;
@@ -391,7 +524,7 @@ main img{
         margin-left: 10%;
     }
 
-    main div {
+     .div {
         color: white;
     }
 
@@ -432,7 +565,7 @@ main img{
     }
 
     main img {
-height: 30%;
+        height: 30%;
         margin-top: 20%;
     }
 
