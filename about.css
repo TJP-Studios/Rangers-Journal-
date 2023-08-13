@@ -95,8 +95,8 @@ main {
 main img {
     width: 526.5px;
     height: 600px;
-
-
+border-radius: 10px;
+/* opacity: 0.7; */
 }
 
 h2 {
@@ -195,26 +195,31 @@ form {
 .email {
     width: 240px;
     padding: 10px;
-    border-radius: 6px;
-    border: none;
+    border-radius: 9px 0px 9px 0px;
     margin-bottom: 7px;
+
+}
+.email::placeholder{
+    /* font-weight: 600; */
+    font-family: montserrat;
+    font-size: 14px;
 }
 
 .email1 {
     width: 240px;
     padding: 10px;
-    border-radius: 19px;
-    border: none;
+    border-radius: 9px 0px 9px 0px;
+    border-bottom: 1px solid #f4faf4;
     background-color: #014400;
+        color: #014400;
+        color: white;
+     font-weight: 600;
 }
 
 .email1:hover {
     background-color: #FFFFFF;
-color: white;
-}
-
-.email1 a {
-    color: white;
+    color: #014400;
+    border: 1px solid #044903;
 }
 
 
@@ -295,24 +300,11 @@ main img{
 /* Max-width 717px */
 
 @media screen and (min-width:563px) and (max-width:717px) {
+    /* HEADER */
     header img {
         width: 20%;
         margin-right: 5%;
     }
-
-
-    main {
-        flex-direction: column;
-        color: white;
-        
-    }
-
-
-main img{
-    width:80% ;
-    margin-top: 7%;
-    margin-left: 10%;
-}
 
     .nav {
         display: none;
