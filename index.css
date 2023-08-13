@@ -599,10 +599,13 @@ footer{
 /* Max-width 717px */
 @media screen and (min-width:563px) and (max-width:717px) {
     body{
-        width: 100%;
+        width: 717px;
     }
     header{
-        width: 110%;
+        width: 717px;
+    }
+    main{
+        width: 717px;
     }
     header img {
         width: 20%;
@@ -612,6 +615,7 @@ footer{
     .nav {
         display: none;
         flex-direction: column;
+
     }   
 
     .icon {
@@ -625,31 +629,41 @@ footer{
 
 
     /* hamburger menu */
-header{
+nav{
     position: relative;
     z-index: 1;
+  
+    
 }
     
 .hamburger{
-    position: absolute;
+    position: fixed;
     background-color: white;
-
-    width: 1300%;
-    height: 30rem;
-    left: 300px;
+    width: 50%;
+    height: 30rem;  
+    left: 345px;
+top: 100px;
+border:1px solid black ;
 }
 
 .hamburger ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+
+
 
 }
 
+.hamburger hr{
+width: 75%;
+}
 .hamburger ul li {
-    padding: 10px;
+    padding: 30px;
+    text-align: center;
 }
+.hamburger li a{
+    /* padding-left: 40%; */
 
+}
 
 
 .hamburger ul li a {
@@ -657,17 +671,17 @@ header{
     color: black;
     cursor: pointer;
   text-align: center;
-    font-style: normal;
     font-weight: 600;
-top: 100px;
+/* top: 100px; */
+font-size: 20px;
 
 }
 
 .visible {
     display: block;
     padding: 10px;
-    align-items: center;
-    text-align: center;
+
+
 }
   
 
@@ -685,7 +699,7 @@ top: 100px;
     }
 footer{
     /* width: 110%; */
-    
+    width: 717px;
 }
 
 .footerdiv3{
@@ -724,7 +738,7 @@ display: none;
     }
 .thirdsection{
     /* height: 30rem; */
-width: 110%;
+    width: 717px;
 
 }
 
@@ -749,14 +763,16 @@ height: 50%;
 
     .firstsection{
         height: 35rem;
-        width: 110%;
+        /* width: 110%; */
+        
+              width: 717px;
     }
 
 }
 
 
 
-/* screen 610*/
+/* screen 610
 @media screen and (min-width:563px) and (max-width:610px) {
     header{
         width: 117%;
@@ -775,7 +791,7 @@ height: 50%;
     footer{
         width: 117%;
     }
-}
+}*/
 
 /* mobile 563 */
 @media screen  and (max-width:563px) {

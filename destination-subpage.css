@@ -404,7 +404,7 @@ header{
     position: absolute;
     background-color: white;
 
-    width: 1300%;
+    /* width: 1300%; */
     height: 30rem;
     left: 300px;
 }
